@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--black);
+    border-bottom: solid 3px;
+    border-bottom-color: var(--primary) ;
+}
+
+.header img{
+    height: 40px;
+}
+

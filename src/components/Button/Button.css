@@ -1,0 +1,19 @@
+.boton{
+    height: 40px;
+    width: 160px;
+    left: 0px;
+    top: 0px;
+    background-color: transparent;
+    color: var(--white);
+    border-radius: 5px;
+    border: 1px solid #F5F5F5;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    /* color: #95FFD4; */
+    color: var(--linkColor);
+ } 

@@ -1,0 +1,43 @@
+.banner{
+    max-width: 100%;
+    z-index: 1;
+}
+
+.titulo_banner{
+    position: absolute;
+    z-index: 2;
+    width: 20%;
+    left: 100px;
+    top: 150px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    background-color: var(--primary);
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.descripcion_banner{
+    position: absolute;
+    z-index: 3;
+    width: 20%;
+    left: 100px;
+    top: 220px;
+    margin: 5px;
+    padding: 5px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.player{
+    position: absolute;
+    z-index: 4;
+    width: 646px;
+    height: 365px;
+    left: 350px;
+    top: 150px;
+    background-color: beige;
+    border: 3px groove lightgray;
+}
+

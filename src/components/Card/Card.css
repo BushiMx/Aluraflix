@@ -1,0 +1,55 @@
+.Card {
+    position: relative;
+    display: flex;
+    width: 430px;
+    height: 280px;
+    border: 3px solid white;
+    border-radius: 15px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.Card img{
+    max-width: 100%;
+    object-fit: scale-down;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00698b;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: .7s ease;
+    opacity: 0;
+    cursor: pointer;;
+  }
+  
+  .Card:hover .overlay {
+    opacity: 1;
+  }
+
+.titulo{
+    position: absolute;
+    color: yellow;
+    margin: 13px 0 0 10px;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.descripcion{
+  color: var(--grayLight);
+  font-size: .8rem;
+  text-align: justify;
+  margin: 30% 10px 0 10px;
+}
+

@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--black);
+    border-top: solid 3px;
+    border-top-color: var(--primary) ;
+    height: 90px;
+}
+
+.footer img{
+    height: 40px;
+}
+

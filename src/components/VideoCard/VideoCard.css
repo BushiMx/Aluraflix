@@ -1,0 +1,29 @@
+.VideoCard{
+ width: 100%;
+ /* height: 400px; */
+ display: block;
+ margin: 15px;
+}
+
+.TituloCategoria{
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+    width: 15%;
+
+}
+
+.imagen{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 5px 5px;
+}
+
+.imagen img{
+    margin: 0 5px 5px;
+}
+
+.splide__slide img {
+    /* height: 299px; */
+    width: 100%;
+  }

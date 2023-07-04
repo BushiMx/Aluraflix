@@ -1,0 +1,31 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    background-color: var(--black);
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    color: var(--grayMedium);
+}
+
+.formulario form {
+    width: 90%;
+    text-align: center;
+}
+
+.formulario .input-color{
+    width: 100%;
+    padding: 1px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.botones{
+    display: inline-flex;
+    justify-content: space-evenly;
+}

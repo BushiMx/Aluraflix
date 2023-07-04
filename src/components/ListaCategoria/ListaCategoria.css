@@ -1,0 +1,22 @@
+select {
+    background-color: var(--backGroundInput);
+    color: var(--grayMedium);
+    height: 30px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+select:focus{
+    background-color: var(--blackLighter);
+    color: var(--black);    
+}
+
+option {
+    color: var(--black)
+}
