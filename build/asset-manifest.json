@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Aluraflix/build/static/css/main.132f8397.css",
+    "main.js": "/Aluraflix/build/static/js/main.a30398ef.js",
+    "static/js/787.f4d0c084.chunk.js": "/Aluraflix/build/static/js/787.f4d0c084.chunk.js",
+    "index.html": "/Aluraflix/build/index.html",
+    "main.132f8397.css.map": "/Aluraflix/build/static/css/main.132f8397.css.map",
+    "main.a30398ef.js.map": "/Aluraflix/build/static/js/main.a30398ef.js.map",
+    "787.f4d0c084.chunk.js.map": "/Aluraflix/build/static/js/787.f4d0c084.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.132f8397.css",
+    "static/js/main.a30398ef.js"
+  ]
+}
